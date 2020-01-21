@@ -4,8 +4,10 @@ def roll_call_dwarves(array)
   end
 end
 
-def summon_captain_planet
-
+def summon_captain_planet(planeteer_calls)
+  array.collect do |call|
+      puts \"\ + #{call} + \!"\
+  end
 end
 
 def long_planeteer_calls
